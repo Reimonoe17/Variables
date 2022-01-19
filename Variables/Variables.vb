@@ -14,18 +14,18 @@ Module Variables
         secondNumber = 38.27D
         result = firstNumber + secondNumber
 
-        ''display result to user
-        'Console.WriteLine(result)
-        'userInput = Console.ReadLine()
+        'display result to user
+        Console.WriteLine(result)
+        userInput = Console.ReadLine()
 
-        ''shows what the user typed
-        'Console.WriteLine(userInput)
-        'Console.ReadLine()
-
-        testResult = (5 > 4)
-
-        Console.WriteLine(testResult)
+        'shows what the user typed
+        Console.WriteLine("You typed: " & userInput)
         Console.ReadLine()
+
+        'testResult = (5 > 4)
+
+        'Console.WriteLine(testResult)
+        'Console.ReadLine()
 
     End Sub
 
